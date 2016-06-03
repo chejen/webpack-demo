@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 5
+after_script:
+  - node --version
+  - npm --version
+  - npm run afterScript
+after_success:
+  - npm run afterSuccess
+  - npm run codecov
