@@ -1,4 +1,4 @@
-Webpack Demos
+Webpack Demo - why
 =============
 
 After cloning the repo, run this:
